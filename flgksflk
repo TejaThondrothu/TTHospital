@@ -1,0 +1,88 @@
+[33mcommit acdef3271bcba68e6a1f8211cd2a32f0ae5dd543[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: TejaThondrothu <thondrothuteja1997@gmail.com>
+Date:   Thu Sep 25 15:09:24 2025 +0530
+
+    language changing feature
+
+[33mcommit c9243724c2cdd4dc232ef2e62be38df5049d1acc[m[33m ([m[1;32mLanguageChangeReplit[m[33m)[m
+Author: tejathondrothu1 <47779614-tejathondrothu1@users.noreply.replit.com>
+Date:   Fri Sep 19 12:34:36 2025 +0000
+
+    Add language switching functionality and mobile responsiveness
+    
+    Implement internationalization (i18n) for language selection and add media queries for mobile device compatibility to enhance user experience across different screen sizes.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: d6163fe6-06cb-43a6-8670-e6b69d91f027
+    Replit-Commit-Checkpoint-Type: full_checkpoint
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/74c42d7a-6a51-45d6-894c-9b9954f87988/d6163fe6-06cb-43a6-8670-e6b69d91f027/udc7dKn
+
+[33mcommit ad70dfaa3d484760a9ed849eaf1c6d3ec80b949b[m
+Author: tejathondrothu1 <47779614-tejathondrothu1@users.noreply.replit.com>
+Date:   Fri Sep 19 12:34:10 2025 +0000
+
+    Implement multi-language support for the website interface
+    
+    Integrate a language context provider and update components to use translation keys for dynamic content, enabling multi-language support across the application. Implement routing for different languages and add Telugu, Hindi, and Tamil language options.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: d6163fe6-06cb-43a6-8670-e6b69d91f027
+    Replit-Commit-Checkpoint-Type: intermediate_checkpoint
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/74c42d7a-6a51-45d6-894c-9b9954f87988/d6163fe6-06cb-43a6-8670-e6b69d91f027/udc7dKn
+
+[33mcommit 80f138c548ccff99a652875459cd85c21cea109b[m
+Author: tejathondrothu1 <47779614-tejathondrothu1@users.noreply.replit.com>
+Date:   Fri Sep 19 12:19:54 2025 +0000
+
+    Configure project for Replit environment and deployment
+    
+    Set up React frontend to run on port 5000 using Vite, ensuring compatibility with Replit's proxy by configuring host to 0.0.0.0 and trusting all hosts. Configured deployment settings for autoscaling.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: d6163fe6-06cb-43a6-8670-e6b69d91f027
+    Replit-Commit-Checkpoint-Type: full_checkpoint
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/74c42d7a-6a51-45d6-894c-9b9954f87988/d6163fe6-06cb-43a6-8670-e6b69d91f027/IRRPVbD
+
+[33mcommit 23ab3d15d537966d7853ca1e41f451e22f15d5af[m
+Author: tejathondrothu1 <47779614-tejathondrothu1@users.noreply.replit.com>
+Date:   Fri Sep 19 12:19:30 2025 +0000
+
+    Configure project to run within the Replit environment
+    
+    Set up the project for Replit execution by configuring the build system, package installer, and project layout.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: d6163fe6-06cb-43a6-8670-e6b69d91f027
+    Replit-Commit-Checkpoint-Type: intermediate_checkpoint
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/74c42d7a-6a51-45d6-894c-9b9954f87988/d6163fe6-06cb-43a6-8670-e6b69d91f027/IRRPVbD
+
+[33mcommit fee8cc0fa53b62955ff6579a2be095dbd8398e0d[m
+Author: tejathondrothu1 <47779614-tejathondrothu1@users.noreply.replit.com>
+Date:   Fri Sep 19 12:19:10 2025 +0000
+
+    Configure the project to run smoothly in the Replit environment
+    
+    Set up the project's build system, dependencies, and runtime configurations for compatibility with the Replit hosting platform, ensuring both frontend and backend components function correctly.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: d6163fe6-06cb-43a6-8670-e6b69d91f027
+    Replit-Commit-Checkpoint-Type: intermediate_checkpoint
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/74c42d7a-6a51-45d6-894c-9b9954f87988/d6163fe6-06cb-43a6-8670-e6b69d91f027/IRRPVbD
+
+[33mcommit dfb826529c609e93c22474bfa5e1f993abcefeaf[m
+Author: tejathondrothu1 <47779614-tejathondrothu1@users.noreply.replit.com>
+Date:   Fri Sep 19 12:17:53 2025 +0000
+
+    Configure frontend to run on a specific port and IP address
+    
+    Update vite.config.js to set the server host to '0.0.0.0' and port to 5000, and configure HMR client port.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: d6163fe6-06cb-43a6-8670-e6b69d91f027
+    Replit-Commit-Checkpoint-Type: intermediate_checkpoint
+
+[33mcommit 4935ffeeaf51fb55e2973341f31dadf574e60940[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/LanguageChangeReplit[m[33m)[m
+Author: TejaThondrothu <thondrothuteja1997@gmail.com>
+Date:   Wed Sep 3 18:40:56 2025 +0530
+
+    First Commit about APIC Hospital
