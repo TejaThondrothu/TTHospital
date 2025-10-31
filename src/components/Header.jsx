@@ -73,13 +73,13 @@ function Header() {
         <div className="flex items-center justify-between px-4 md:px-12 lg:px-24 py-4">
           {/* Logo */}
           <div onClick={()=>navigate('/home')}  className="flex items-center space-x-2">
-            <img
+            {/* <img
               src="https://apichospital.com/wp-content/uploads/2023/01/logo.png"
               alt="APIC Hospital"
               className="h-12"
-            />
+            /> */}
             <div>
-              <h1 className="text-xl md:text-2xl font-bold text-teal-600">APIC</h1>
+              <h1 className="text-xl md:text-2xl font-bold text-teal-600">TNR</h1>
               <h2 className="text-lg md:text-xl font-semibold text-orange-500 -mt-1">
                 HOSPITAL
               </h2>
