@@ -12,11 +12,18 @@ const Footer = () => {
         
         {/* Logo & About */}
         <div onClick={()=>navigate('/home')} className="cursor-pointer">
-          <img
+          {/* <img
             src="https://apichospital.com/wp-content/uploads/2023/01/logo.png" // Replace with your logo path
             alt="APIC Hospital"
             className="h-12 mb-4"
-          />
+          /> */}
+            <div className="mb-4">
+              <h1 className="text-xl md:text-2xl font-bold text-teal-600">TNR</h1>
+              <h2 className="text-lg md:text-xl font-semibold text-orange-500 -mt-1">
+                HOSPITAL
+              </h2>
+              <p className="text-xs text-gray-500">{translate('header.tagline')}</p>
+            </div>
           <p className="text-sm text-gray-300 mb-4">
             {translate('footer.description')}
           </p>
